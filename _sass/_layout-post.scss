@@ -4,6 +4,15 @@
  .post-header {
     margin-bottom: $spacing-unit;
 }
+
+.post-title {
+    text-align: center;
+}
+
+.post-title,
+.post-content h1 {
+    text-align: center;
+}
   
 .post-title,
 .post-content h1 {
@@ -69,4 +78,8 @@ article, .comments, .box {
 
 .page-content {
     margin-top: 80px;
+}
+
+link {
+    color: #2aa198;
 }
