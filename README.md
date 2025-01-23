@@ -1,4 +1,4 @@
-# raexera's Personal Website
+# sporestudio's Personal Website
 
 This is the source code for my personal website. It is built using [Astro](https://astro.build/).
 
