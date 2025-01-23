@@ -1,34 +1,32 @@
-name: Deploy to GitHub Pages
+name: Deploy Astro to GitHub Pages
 
 on:
+  # Ejecuta el flujo de trabajo cada vez que haya un push en la rama `main`
   push:
-    branches: ["main"]
+    branches: [ main ]
+  # Permite ejecutar este flujo de trabajo manualmente desde la pestaña de Actions en GitHub.
   workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository using git
-        uses: actions/checkout@v4
-      - name: Install, build, and upload your site
-        uses: withastro/action@v2
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          path: .
-          node-version: 20
-          package-manager: pnpm@latest
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the Astro site
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist

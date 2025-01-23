@@ -5,6 +5,6 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://raexera.me",
-  integrations: [react(), tailwind(), icon()],
+  site: 'https://sporestudio.github.io',
+  base: '/',
 });
