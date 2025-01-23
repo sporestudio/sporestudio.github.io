@@ -1,0 +1,214 @@
+{
+  "basics": {
+    "name": "Jorge Rodríguez",
+    "nickname": "sporestudio",
+    "label": "",
+    "summary": "Passionate about continuously learning and building open source projects. Experienced in systems administration with a focus on development operations and cibersecurity.",
+    "location": {
+      "city": "Granada",
+      "countryCode": "ID",
+      "region": "Spain"
+    },
+    "socials": [
+      {
+        "network": "email",
+        "url": "mailto:jrodcas@proton.me"
+      },
+      {
+        "network": "github",
+        "url": "https://github.com/sporestudio"
+      },
+      {
+        "network": "linkedin",
+        "url": "https://linkedin.com/in/jrodcas"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Hack The Box",
+      "position": "CTF Player",
+      "location_type": "Remote",
+      "location": "Granada, Spain",
+      "url": "https://hackthebox.com",
+      "startDate": "2024-08-01",
+      "endDate": null,
+      "summary": "",
+      "responsibilities": [
+        "Use of basic reconnaissance scripts with Nmap",
+        "Database exploitation with SQLmap",
+        "Directory listing with Wfuzz",
+        "Basic use of Metasploit",
+        "Use of proxies such as Burp Suite",
+        "Brute force on password hashes with Hashcat",
+        "Use of wordlists to apply brute force attacks"
+      ]
+    },
+    {
+      "name": "Software engineering",
+      "position": "Freelance",
+      "location_type": "Remote",
+      "location": "Granada, Spain",
+      "url": "",
+      "startDate": "2020-09-01",
+      "endDate": "2021-04-01",
+      "summary": "",
+      "responsibilities": [
+        
+      ]
+    },
+    {
+      "name": "Taracea Marketing",
+      "position": "Video Editor",
+      "location_type": "On-site",
+      "location": "Granada, Spain",
+      "url": "https://taraceamarketing.com/",
+      "startDate": "2020-09-01",
+      "endDate": "2021-04-01",
+      "summary": "",
+      "responsibilities": [
+        "Video Editing",
+        "Logo animation",
+        "Creation of 2D and 3D animations and graphic resources"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "IES Zaidin Vergeles",
+      "url": "https://www.ieszaidinvergeles.org/",
+      "area": "CFGS Administración de Sistemas Informaticos en Red",
+      "studyType": "Bachelor",
+      "startDate": "2023-09-15",
+      "endDate": null,
+      "summary": "Specialization in System Administration, with a focus on Development Operations and Cybersecurity. Courses include Virtualization, Algorithms, Object-Oriented Programming, and Software Development. Participated in bug bounty and CTFs challenges."
+    },
+    {
+      "institution": "IES Angel Ganivet",
+      "url": "https://iesangelganivet.es/",
+      "area": "CFGS Diseño y Edición de Publicaciones Impresas y Multimedia",
+      "studyType": "Vocational High School",
+      "startDate": "2021-09-15",
+      "endDate": "2023-06-12",
+      "summary": "Graduated as a top student, gained expertise in graphic design, 3D art and video editing. Served as a video editor assistant, and helped other students to improve their skills."
+    }
+  ],
+  "awards": [
+
+  ],
+  "skills": {
+    "technologies": [
+      "Ansible",
+      "AWS",
+      "Docker",
+      "Django",
+      "Linux",
+      "MongoDB",
+      "MySQL",
+      "Terraform",
+      "Nginx"
+    ],
+    "programming_languages": [
+      "C",
+      "C++",
+      "CSS",
+      "HTML",
+      "PHP",
+      "Python",
+      "Bash"
+    ]
+  },
+  "projects": [
+    {
+      "name": "spsh",
+      "description": "A simply shell made in pure C",
+      "url": "https://github.com/sporestudio/sprshell",
+      "highlights": [
+        "A simply shell made in pure C."
+      ],
+      "technologies": ["Shell", "C"]
+    },
+    {
+      "name": "Hacking WiFi Tool",
+      "description": "Wifi Cracker using tools like aircrack-ng and macchanger",
+      "url": "https://github.com/sporestudio/sprwifi",
+      "highlights": [
+        "Tool to automate WiFi attacks (WPA/WPA2 - PSK) aimed at obtaining a password."
+      ],
+      "technologies": ["Bash", "Mcchanger", "Airmon-ng"]
+    },
+    {
+      "name": "Spore.io",
+      "description": "Custom Linux Environment",
+      "url": "https://github.com/sporestudio/dotfiles",
+      "highlights": [
+        "Engineered a performance-focused Linux environment with Qtile, enhancing productivity for developers and power users.",
+        "Developed custom widgets for system monitoring and task management, streamlining workflows and improving user experience."
+      ],
+      "technologies": ["Python", "Shell"]
+    },
+    {
+      "name": "GUI task manager",
+      "description": "GUI Task Management in pure C.",
+      "url": "https://github.com/sporestudio/task-manager",
+      "highlights": [
+        "GUI Task Management in pure C."
+      ],
+      "technologies": ["C", "Shell"]
+    },
+    {
+      "name": "Spotify with Terraform",
+      "description": "Spotify Playlist Deployment",
+      "url": "https://github.com/sporestudio/terraform-spotify",
+      "highlights": [
+        "A Spotify Playlist made with Terraform."
+      ],
+      "technologies": ["Terraform", "Python", "Shell"]
+    },
+    {
+      "name": "DNS server",
+      "description": "DNS Server Deployment",
+      "url": "https://github.com/sporestudio/dns-server",
+      "highlights": [
+        "This repository contains configuration files for setting up a DNS server with BIND, including master and slave zone management."
+      ],
+      "technologies": ["Bind-9", "Vagrant", "Bash"]
+    },
+    {
+      "name": "Web scrapping",
+      "description": "Yet Another StackOverflow Scraper",
+      "url": "https://github.com/sporestudio/web-scrapping",
+      "highlights": [
+        "Python program to scrape data from Stack Overflow to grab new questions. Scraped data will be stored in MongoDB."
+      ],
+      "technologies": ["Python", "Scrapy", "MongoDB"]
+    },
+    {
+      "name": "DHCP server",
+      "description": "DHCP Server Deployment",
+      "url": "https://github.com/sporestudio/dhcp-server",
+      "highlights": [
+        "DHCP server (server) and two clients (c1 and c2) that will get their configuration from the server automatically (c2 based on its MAC address)."
+      ],
+      "technologies": ["Isc-dhcp", "Bash", "Vagrant"]
+    },
+    {
+      "name": "Web Server",
+      "description": "Web Server Deployment",
+      "url": "https://github.com/sporestudio/web-server",
+      "highlights": [
+        "Automated deployment of an apache web server using Docker containers, as well as monitoring tools for the server. "
+      ],
+      "technologies": ["Pyhton", "Bash", "Docker", "Jenkins", "Docker-Compose", "Flask"]
+    },
+    {
+      "name": "FTP server",
+      "description": "FTP Server Deployment",
+      "url": "https://github.com/sporestudio/ftp-server",
+      "highlights": [
+        "Deployment of a DNS (bind9) and FTP (vsftpd) Server using Vagrant + Ansible."
+      ],
+      "technologies": ["FTP", "Bash", "Vagrant", "Ansible"]
+    }
+  ]
+}
