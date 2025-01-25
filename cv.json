@@ -45,19 +45,6 @@
       ]
     },
     {
-      "name": "Software engineering",
-      "position": "Freelance",
-      "location_type": "Remote",
-      "location": "Granada, Spain",
-      "url": "",
-      "startDate": "2020-09-01",
-      "endDate": "2021-04-01",
-      "summary": "",
-      "responsibilities": [
-        
-      ]
-    },
-    {
       "name": "Taracea Marketing",
       "position": "Video Editor",
       "location_type": "On-site",
@@ -93,8 +80,13 @@
       "summary": "Graduated as a top student, gained expertise in graphic design, 3D art and video editing. Served as a video editor assistant, and helped other students to improve their skills."
     }
   ],
-  "awards": [
-
+  "volunteering": [
+    {
+      "institution": "Secur0",
+      "area" : "Bug Bounty",
+      "startDate": "2024",
+      "endDate": "Present"
+    }
   ],
   "skills": {
     "technologies": [
@@ -116,6 +108,10 @@
       "PHP",
       "Python",
       "Bash"
+    ],
+    "design_software": [
+      "Adobe Creative Suite",
+      "Blender 3D"
     ]
   },
   "projects": [
@@ -148,13 +144,15 @@
       "technologies": ["Python", "Shell"]
     },
     {
-      "name": "GUI task manager",
-      "description": "GUI Task Management in pure C.",
-      "url": "https://github.com/sporestudio/task-manager",
+      "name": "Web Server",
+      "description": "Web Server Deployment",
+      "url": "https://github.com/sporestudio/web-server",
       "highlights": [
-        "GUI Task Management in pure C."
+        "Automated deployment of an apache web server using Docker containers, as well as monitoring tools for the server.",
+        "Developed two lightweight applications using Flask as framework: An ULRs shortener and a youtube video/audio downloader.",
+        "CD/CI Pipeline with Jenkins."
       ],
-      "technologies": ["C", "Shell"]
+      "technologies": ["Pyhton", "Bash", "Docker", "Jenkins", "Docker-Compose", "Flask"]
     },
     {
       "name": "Spotify with Terraform",
@@ -193,13 +191,13 @@
       "technologies": ["Isc-dhcp", "Bash", "Vagrant"]
     },
     {
-      "name": "Web Server",
-      "description": "Web Server Deployment",
-      "url": "https://github.com/sporestudio/web-server",
+      "name": "GUI task manager",
+      "description": "GUI Task Management in pure C.",
+      "url": "https://github.com/sporestudio/task-manager",
       "highlights": [
-        "Automated deployment of an apache web server using Docker containers, as well as monitoring tools for the server. "
+        "GUI Task Management in pure C."
       ],
-      "technologies": ["Pyhton", "Bash", "Docker", "Jenkins", "Docker-Compose", "Flask"]
+      "technologies": ["C", "Shell"]
     },
     {
       "name": "FTP server",

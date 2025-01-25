@@ -7,4 +7,9 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   site: 'https://sporestudio.github.io',
   base: '/',
+  integrations: [
+    react(),
+    tailwind(),
+    icon(),
+  ]
 });

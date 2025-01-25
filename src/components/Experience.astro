@@ -74,7 +74,7 @@ import { work } from "@cv";
                   )}
                 </div>
                 {(location || location_type) && (
-                  <p class="mt-2 text-sm text-black/80 dark:text-white/80">
+                  <p class="text-sm text-black/80 dark:text-white/80">
                     {location} {location && location_type && " - "}{" "}
                     {location_type}
                   </p>
@@ -92,10 +92,10 @@ import { work } from "@cv";
                   {responsibilities && (
                     <ExpandButton client:load>
                       <div class="mt-2 text-sm">
-                        <div class="font-medium text-black/80 dark:text-white/80">
+                        <div class="font-medium text-black/80 dark:text-white/80 mb-3">
                           Responsibilities:
                         </div>
-                        <ul class="list-inside list-disc space-y-1 text-black/50 dark:text-white/50">
+                        <ul class="mb-3 text-xs font-semibold list-inside list-disc space-y-1 text-black/50 dark:text-white/50">
                           {responsibilities.map((responsibility) => (
                             <li>{responsibility}</li>
                           ))}

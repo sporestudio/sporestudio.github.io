@@ -1,11 +1,11 @@
 ---
-import Awards from "@/components/Awards.astro";
 import Heading from "@/components/Heading.astro";
 import Education from "@/components/Education.astro";
 import Experience from "@/components/Experience.astro";
 import Skills from "@/components/Skills.astro";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { SITE } from "@/consts";
+import Volunteering from "@/components/Volunteering.astro";
 ---
 
 <BaseLayout title="About" description={SITE.DESCRIPTION}>
@@ -14,8 +14,8 @@ import { SITE } from "@/consts";
     <div class="space-y-8 md:col-span-4">
       <Experience />
       <Skills />
-      <Awards class="order-first" />
       <Education class="order-first" />
+      <Volunteering class="order-first" />
     </div>
   </div>
 </BaseLayout>

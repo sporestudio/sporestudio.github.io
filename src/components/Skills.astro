@@ -1,7 +1,7 @@
 ---
 import Section from "./Section.astro";
 import { skills } from "@cv";
-const { technologies, programming_languages } = skills;
+const { technologies, programming_languages, design_software } = skills;
 ---
 
 <Section className={Astro.props.className} title="Skills">
@@ -26,6 +26,18 @@ const { technologies, programming_languages } = skills;
       programming_languages.map((lang) => (
         <li class="flex items-center gap-1 rounded-md border border-black/25 bg-neutral-200/50 px-2 py-1 text-xs text-black/80 dark:border-white/25 dark:bg-neutral-800/50 dark:text-white/80">
           {lang}
+        </li>
+      ))
+    }
+  </ul>
+  <div class="mt-2 text-sm font-bold text-black/80 dark:text-white/80">
+    Design Software
+  </div>
+  <ul class="flex flex-wrap gap-2">
+    {
+      design_software.map((design) => (
+        <li class="flex items-center gap-1 rounded-md border border-black/25 bg-neutral-200/50 px-2 py-1 text-xs text-black/80 dark:border-white/25 dark:bg-neutral-800/50 dark:text-white/80">
+          {design}
         </li>
       ))
     }
