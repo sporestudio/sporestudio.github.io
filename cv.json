@@ -50,8 +50,8 @@
       "location_type": "On-site",
       "location": "Granada, Spain",
       "url": "https://taraceamarketing.com/",
-      "startDate": "2020-09-01",
-      "endDate": "2021-04-01",
+      "startDate": "2022-09-01",
+      "endDate": "2022-04-01",
       "summary": "",
       "responsibilities": [
         "Video Editing",
@@ -64,7 +64,7 @@
     {
       "institution": "IES Zaidin Vergeles",
       "url": "https://www.ieszaidinvergeles.org/",
-      "area": "CFGS Administración de Sistemas Informaticos en Red",
+      "area": "CFGS Administración de Sistemas Informáticos en Red",
       "studyType": "Bachelor",
       "startDate": "2023-09-15",
       "endDate": null,
@@ -82,10 +82,11 @@
   ],
   "volunteering": [
     {
-      "institution": "Secur0",
-      "area" : "Bug Bounty",
+      "institution": "Secure0",
+      "title": "Bug Bounty",
       "startDate": "2024",
-      "endDate": "Present"
+      "endDate": "Present",
+      "summary": "Participated in a project where we did pentesting for five startups and reported the identified vulnerabilities."
     }
   ],
   "skills": {
@@ -93,12 +94,11 @@
       "Ansible",
       "AWS",
       "Docker",
-      "Django",
       "Linux",
-      "MongoDB",
       "MySQL",
       "Terraform",
-      "Nginx"
+      "Nginx",
+      "Flask"
     ],
     "programming_languages": [
       "C",
@@ -148,9 +148,9 @@
       "description": "Web Server Deployment",
       "url": "https://github.com/sporestudio/web-server",
       "highlights": [
-        "Automated deployment of an apache web server using Docker containers, as well as monitoring tools for the server.",
-        "Developed two lightweight applications using Flask as framework: An ULRs shortener and a youtube video/audio downloader.",
-        "CD/CI Pipeline with Jenkins."
+        "Automated deployment of an apache web server using Docker containers, as well as monitoring tools for the server. ",
+        "Developed two lightwieght web apps using Flask: A URLs shortener and a video/audio downloader from YouTube.",
+        "CI/CD using Jenkins to test/deploy the apps. "
       ],
       "technologies": ["Pyhton", "Bash", "Docker", "Jenkins", "Docker-Compose", "Flask"]
     },
