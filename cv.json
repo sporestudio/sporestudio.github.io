@@ -3,7 +3,7 @@
     "name": "Jorge Rodríguez",
     "nickname": "sporestudio",
     "label": "",
-    "summary": "Passionate about continuously learning and building open source projects. Experienced in systems administration with a focus on development operations and cibersecurity.",
+    "summary": "Focused on continuously learning and building open source projects. Experienced in systems administration with a focus on development operations and cibersecurity.",
     "location": {
       "city": "Granada",
       "countryCode": "ID",
@@ -141,7 +141,7 @@
         "Engineered a performance-focused Linux environment with Qtile, enhancing productivity for developers and power users.",
         "Developed custom widgets for system monitoring and task management, streamlining workflows and improving user experience."
       ],
-      "technologies": ["Python", "Shell"]
+      "technologies": ["Python", "Shell", "Linux"]
     },
     {
       "name": "Web Server",
