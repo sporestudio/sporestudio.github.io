@@ -26,6 +26,39 @@
   },
   "work": [
     {
+      "name": "T-Systems International",
+      "position": "Unix Systems Operations",
+      "location_type": "On-site",
+      "location": "Granada, Spain",
+      "url": "https://www.t-systems.com/us/en",
+      "startDate": "2025-07-07",
+      "endDate": null,
+      "summary": "",
+      "responsibilities": [
+        "Administration of Linux servers in a high availability environment.",
+        "Management of web servers (Apache, Nginx) and application servers (Tomcat, JBoss).",
+        "Implementation of security measures and monitoring tools to ensure system integrity.",
+        "Support in the deployment and maintenance of applications in production environments."
+      ]
+    },
+    {
+      "name": "TourCMS (Palisis AG)",
+      "position": "Junior Full Stack Developer",
+      "location_type": "Hybrid",
+      "location": "Granada, Spain",
+      "url": "https://www.tourcms.com/",
+      "startDate": "2025-03-18",
+      "endDate": "2025-06-11",
+      "summary": "",
+      "responsibilities": [
+        "Design and execution of unit tests to validate new features and application releases.",
+        "Performing integration testing to ensure seamless interaction between system components.",
+        "Implementation and maintenance of Continuous Integration (CI).",
+        "Infrastructure management with Docker and Apache for development and production environments.",
+        "Support in Linux server administration tasks."
+      ]
+    },
+    {
       "name": "Hack The Box",
       "position": "CTF Player",
       "location_type": "Remote",
@@ -67,7 +100,7 @@
       "area": "CFGS Administración de Sistemas Informáticos en Red",
       "studyType": "Bachelor",
       "startDate": "2023-09-15",
-      "endDate": null,
+      "endDate": "2025-06-10",
       "summary": "Specialization in System Administration, with a focus on Development Operations and Cybersecurity. Courses include Virtualization, Algorithms, Object-Oriented Programming, and Software Development. Participated in bug bounty and CTFs challenges."
     },
     {
@@ -87,6 +120,13 @@
       "startDate": "2024",
       "endDate": "Present",
       "summary": "Participated in a project where we did pentesting for five startups and reported the identified vulnerabilities."
+    },
+    {
+      "institution": "Open Dylan",
+      "title": "Software Developer",
+      "startDate": "2024",
+      "endDate": "Present",
+      "summary": ""
     }
   ],
   "skills": {
@@ -98,7 +138,16 @@
       "MySQL",
       "Terraform",
       "Nginx",
-      "Flask"
+      "Flask",
+      "FastAPI",
+      "MongoDB",
+      "PostgreSQL",
+      "Redis",
+      "Apache",
+      "Git",
+      "Jenkins",
+      "Vagrant",
+      "Kubernetes"
     ],
     "programming_languages": [
       "C",
@@ -115,6 +164,28 @@
     ]
   },
   "projects": [
+    {
+      "name": "Hiddenbox",
+      "description": "Encrypted and private services in the cloud",
+      "url": "https://github.com/sporestudio/hiddenbox",
+      "highlights": [
+        "A set of encrypted and private services in the cloud, including a web server, a file storage service, and a chat service.",
+        "The services are designed to be easy to use and secure, with end-to-end encryption and zero-knowledge architecture.",
+        "The project is built using Python, FastAPI, and Docker, making it easy to deploy and scale."
+      ],
+      "technologies": ["Python", "Pytest", "FastApi", "Docker", "Redis", "PostgreSQL", "Nginx", "React", "TailwindCSS", "TypeScript", "Ansible"]
+    },
+    {
+      "name": "Celeste",
+      "description": "ARP and DNS spoofing tool made in Python using scapy library",
+      "url": "https://github.com/sporestudio/celeste",
+      "highlights": [
+        "A tool for ARP and DNS spoofing attacks, designed to be easy to use and effective.",
+        "The tool is built using Python and the scapy library, making it easy to extend and customize.",
+        "Strategy design pattern is used to allow the user to choose the attack they want to perform."
+      ],
+      "technologies": ["Python", "Scapy", "Bash"]
+    },
     {
       "name": "spsh",
       "description": "A simply shell made in pure C",
